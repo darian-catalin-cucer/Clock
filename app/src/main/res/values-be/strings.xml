@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Clock</string>
+    <string name="app_launcher_name">Гадзіннік</string>
+    <string name="time_zone">Гадзінны пояс</string>
+    <string name="vibrate">Вібраваць</string>
+    <string name="no_days_selected">Дні не выбраны</string>
+    <string name="clock">Гадзіннік</string>
+    <string name="timer">Таймер</string>
+    <string name="stopwatch">Секундамер</string>
+    <string name="start_stopwatch">Start stopwatch</string>
+    <string name="lap">Круг</string>
+    <string name="stopwatch_stopped">Секундамер спынены</string>
+    <string name="timer_stopped">Таймер спынены</string>
+    <string name="max_reminder_duration">Максімальная працягласць напаміну</string>
+    <string name="time_expired">Час выйшаў</string>
+    <string name="clock_and_date">Гадзіннік і дата</string>
+    <string name="use_text_shadow">Выкарыстоўваць зацяненне тэксту</string>
+    <string name="swipe_right_to_dismiss">Перацягніце направа, каб адхіліць, альбо налева, каб адкласці.</string>
+    <string name="sort_by_creation_order">Парадак стварэння</string>
+    <string name="sort_by_alarm_time">Час будзільніка</string>
+    <string name="sort_by_day_and_alarm_time">Дзень і час будзільніка</string>
+    <string name="analogue_clock">Аналагавы гадзіннік</string>
+    <string name="digital_clock">Лічбавы гадзіннік</string>
+    <string name="alarm_dismissed">Будзільнік адхілены</string>
+    <string name="alarm_snoozed">Будзільнік адкладзены на %s</string>
+    <string name="no_alarms_found">No alarms found</string>
+    <string name="add_alarm">Add alarm</string>
+    <string name="no_timers_found">No timers found</string>
+    <string name="add_timer">Add timer</string>
+    <string name="upcoming_alarm">Upcoming alarm</string>
+    <!--Timer-->
+    <string name="timers_notification_msg">Таймеры запушчаны</string>
+    <string name="timer_single_notification_label_msg">Таймер для %s запушчаны</string>
+    <string name="new_timer">Новы таймер</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d таймер запушчаны</item>
+        <item quantity="few">%d таймера запушчаны</item>
+        <item quantity="many">%d таймераў запушчана</item>
+        <item quantity="other">%d таймераў запушчана</item>
+    </plurals>
+    <!-- Settings -->
+    <string name="clock_tab">Гадзіннік</string>
+    <string name="alarm_tab">Будзільнік</string>
+    <string name="stopwatch_tab">Секундамер</string>
+    <string name="timer_tab">Таймер</string>
+    <string name="show_seconds">Паказваць секунды</string>
+    <string name="increase_volume_gradually">Паступова павялічваць гучнасць</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">Як змяніць сартаванне кругоў на ўкладцы секундамера\?</string>
+    <string name="faq_1_text">Проста націсніце на любы са слупкоў, і кругі будуць адсартаваны па дадзенаму слупку. Дадатковымі націсканнямі вы можаце пераключацца паміж сартаваннем па ўзрастанні і па змяншэнні.</string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

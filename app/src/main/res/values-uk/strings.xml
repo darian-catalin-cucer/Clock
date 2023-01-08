@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Простий Годинник</string>
+    <string name="app_launcher_name">Годинник</string>
+    <string name="time_zone">Часовий пояс</string>
+    <string name="vibrate">Вібрувати</string>
+    <string name="no_days_selected">Дні не обрано</string>
+    <string name="clock">Clock</string>
+    <string name="timer">Таймер</string>
+    <string name="stopwatch">Секундомір</string>
+    <string name="start_stopwatch">Запустити секундомір</string>
+    <string name="lap">Інтервал</string>
+    <string name="stopwatch_stopped">Секундомір зупинено</string>
+    <string name="timer_stopped">Таймер зупинено</string>
+    <string name="max_reminder_duration">Максимальна тривалість нагадування</string>
+    <string name="time_expired">Час сплив</string>
+    <string name="clock_and_date">Годинник і дата</string>
+    <string name="use_text_shadow">Застосовувати ефект тіні у тексті</string>
+    <string name="swipe_right_to_dismiss">Свайп вправо, щоб відхилити, або вліво, щоб відкласти.</string>
+    <string name="sort_by_creation_order">Порядок створення</string>
+    <string name="sort_by_alarm_time">Час будильника</string>
+    <string name="sort_by_day_and_alarm_time">День і час будильника</string>
+    <string name="analogue_clock">Аналоговий годинник</string>
+    <string name="digital_clock">Цифровий годинник</string>
+    <string name="alarm_dismissed">Будильник вимкнено</string>
+    <string name="alarm_snoozed">Будильник відкладено %s</string>
+    <string name="no_alarms_found">Немає будильників</string>
+    <string name="add_alarm">Add alarm</string>
+    <string name="no_timers_found">Таймерів не знайдено</string>
+    <string name="add_timer">Add timer</string>
+    <string name="upcoming_alarm">Майбутній будильник</string>
+    <!--Timer-->
+    <string name="timers_notification_msg">Таймери працюють</string>
+    <string name="timer_single_notification_label_msg">Таймер для %s працює</string>
+    <string name="new_timer">Новий таймер</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d таймер працює</item>
+        <item quantity="few">%d таймера працюють</item>
+        <item quantity="many">%d таймерів працюють</item>
+        <item quantity="other">%d таймерів працюють</item>
+    </plurals>
+    <!-- Settings -->
+    <string name="clock_tab">Годинник</string>
+    <string name="alarm_tab">Будильник</string>
+    <string name="stopwatch_tab">Секундомір</string>
+    <string name="timer_tab">Таймер</string>
+    <string name="show_seconds">Показувати з точністю до секунд</string>
+    <string name="increase_volume_gradually">Поступово підвищувати гучність</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">Як я можу відсортувати інтервали часу у вкладці секундоміра?</string>
+    <string name="faq_1_text">Просто натисність на будь-якій з колонок, так ви відсортуєте інтервали за значеннями у даній колонці. Додатково натиснувши, ви зміните сортування за зростанням чи спаданням.</string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

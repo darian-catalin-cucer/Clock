@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jednoduché hodiny</string>
+    <string name="app_launcher_name">Hodiny</string>
+    <string name="time_zone">Časové pásmo</string>
+    <string name="vibrate">Vibrovat</string>
+    <string name="no_days_selected">Nebyly označeny žádné dny</string>
+    <string name="clock">Hodiny</string>
+    <string name="timer">Časovač</string>
+    <string name="stopwatch">Stopky</string>
+    <string name="start_stopwatch">Spustit stopky</string>
+    <string name="lap">Mezičas</string>
+    <string name="stopwatch_stopped">Stopky byly zastaveny</string>
+    <string name="timer_stopped">Časovač byl zastaven</string>
+    <string name="max_reminder_duration">Maximální délka upozornění</string>
+    <string name="time_expired">Čas vypršel</string>
+    <string name="clock_and_date">Hodiny a datum</string>
+    <string name="use_text_shadow">Použít stínování písma</string>
+    <string name="swipe_right_to_dismiss">Potáhněte vpravo pro zrušení, nebo vlevo pro odložení.</string>
+    <string name="sort_by_creation_order">Pořadí vytvoření</string>
+    <string name="sort_by_alarm_time">Času budíku</string>
+    <string name="sort_by_day_and_alarm_time">Dne a času budíku</string>
+    <string name="analogue_clock">Analogové hodiny</string>
+    <string name="digital_clock">Digitální hodiny</string>
+    <string name="alarm_dismissed">Budík zrušen</string>
+    <string name="alarm_snoozed">Budík odložen na %s</string>
+    <string name="no_alarms_found">Nenalezeny žádné budíky</string>
+    <string name="add_alarm">Přidat budík</string>
+    <string name="no_timers_found">Nenalezeny žádné časovače</string>
+    <string name="add_timer">Přidat časovač</string>
+    <string name="upcoming_alarm">Upcoming alarm</string>
+    <!--Timer-->
+    <string name="timers_notification_msg">Časovače běží</string>
+    <string name="timer_single_notification_label_msg">Časovač pro %s běží</string>
+    <string name="new_timer">Nový časovač</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d časovač běží</item>
+        <item quantity="few">%d časovače běží</item>
+        <item quantity="other">%d časovačů běží</item>
+    </plurals>
+    <!-- Settings -->
+    <string name="clock_tab">Karta hodin</string>
+    <string name="alarm_tab">Karta budíku</string>
+    <string name="stopwatch_tab">Karta stopek</string>
+    <string name="timer_tab">Karta časovače</string>
+    <string name="show_seconds">Zobrazit sekundy</string>
+    <string name="increase_volume_gradually">Postupně zvyšovat hlasitost</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">Jak mohu změnit pořadí mezičasů na kartě se stopkami\?</string>
+    <string name="faq_1_text">Stačí kliknout na některý sloupec. To aktivuje řazení podle daného sloupce. Dalšími kliknutími na daný sloupec můžete přepínat mezi vzestupným a sestupným pořadím.</string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

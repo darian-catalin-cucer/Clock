@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Простые часы</string>
+    <string name="app_launcher_name">Часы</string>
+    <string name="time_zone">Часовой пояс</string>
+    <string name="vibrate">Вибрация</string>
+    <string name="no_days_selected">Дни не выбраны</string>
+    <string name="clock">Часы</string>
+    <string name="timer">Таймер</string>
+    <string name="stopwatch">Секундомер</string>
+    <string name="start_stopwatch">Пуск секундомера</string>
+    <string name="lap">Круг</string>
+    <string name="stopwatch_stopped">Секундомер остановлен</string>
+    <string name="timer_stopped">Таймер остановлен</string>
+    <string name="max_reminder_duration">Максимальная длительность напоминания</string>
+    <string name="time_expired">Время вышло</string>
+    <string name="clock_and_date">Часы и дата</string>
+    <string name="use_text_shadow">Использовать затенение текста</string>
+    <string name="swipe_right_to_dismiss">Смахивание вправо — скрыть, влево — отложить.</string>
+    <string name="sort_by_creation_order">Порядок создания</string>
+    <string name="sort_by_alarm_time">Время будильника</string>
+    <string name="sort_by_day_and_alarm_time">Дата и время будильника</string>
+    <string name="analogue_clock">Аналоговые часы</string>
+    <string name="digital_clock">Цифровые часы</string>
+    <string name="alarm_dismissed">Будильник отключён</string>
+    <string name="alarm_snoozed">Будильник отложен на %s</string>
+    <string name="no_alarms_found">Будильники отсутствуют</string>
+    <string name="add_alarm">Добавить будильник</string>
+    <string name="no_timers_found">Таймеры отсутствуют</string>
+    <string name="add_timer">Добавить таймер</string>
+    <string name="upcoming_alarm">Предстоящий будильник</string>
+    <!--Timer-->
+    <string name="timers_notification_msg">Таймеры запущены</string>
+    <string name="timer_single_notification_label_msg">Таймер для %s запущен</string>
+    <string name="new_timer">Новый таймер</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d таймер запущен</item>
+        <item quantity="few">%d таймера запущены</item>
+        <item quantity="many">%d таймеров запущено</item>
+        <item quantity="other">%d таймеров запущено</item>
+    </plurals>
+    <!-- Settings -->
+    <string name="clock_tab">Часы</string>
+    <string name="alarm_tab">Будильник</string>
+    <string name="stopwatch_tab">Секундомер</string>
+    <string name="timer_tab">Таймер</string>
+    <string name="show_seconds">Показывать секунды</string>
+    <string name="increase_volume_gradually">Нарастание громкости</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">Как я могу изменить сортировку кругов во вкладке секундомера?</string>
+    <string name="faq_1_text">Просто нажмите на любую из колонок, и круги отсортируются по этой колонке. Дополнительными нажатиями можно переключаться между сортировкой по возрастанию и по убыванию.</string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

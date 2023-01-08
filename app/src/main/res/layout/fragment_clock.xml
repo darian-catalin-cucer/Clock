@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clock_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/clock_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextClock
+            android:id="@+id/clock_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:format12Hour="h:mm:ss a"
+            android:format24Hour="k:mm:ss"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/clock_text_size"
+            tools:text="00:00:00" />
+
+        <TextClock
+            android:id="@+id/clock_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clock_time"
+            android:format12Hour="EEE, d MMM"
+            android:format24Hour="EEE, d MMM"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/big_text_size"
+            tools:text="Mon, 1 January" />
+
+        <com.simplemobiletools.commons.views.MyTextView
+            android:id="@+id/clock_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clock_date"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:drawableLeft="@drawable/ic_clock_small"
+            android:drawablePadding="@dimen/small_margin"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/big_text_size"
+            tools:text="Thu, 8:00" />
+
+        <com.simplemobiletools.commons.views.MyRecyclerView
+            android:id="@+id/time_zones_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/clock_alarm"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:clipToPadding="false"
+            android:overScrollMode="ifContentScrolls"
+            android:paddingBottom="@dimen/fab_list_bottom_padding"
+            android:scrollbars="none"
+            android:visibility="gone"
+            app:layoutManager="com.simplemobiletools.commons.views.MyLinearLayoutManager" />
+
+    </RelativeLayout>
+
+    <com.simplemobiletools.commons.views.MyFloatingActionButton
+        android:id="@+id/clock_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/activity_margin"
+        android:src="@drawable/ic_plus_vector" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

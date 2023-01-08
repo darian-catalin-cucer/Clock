@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Απλό Ρολόι</string>
+    <string name="app_launcher_name">Ρολόι</string>
+    <string name="time_zone">Ζώνη ώρας</string>
+    <string name="vibrate">Δόνηση</string>
+    <string name="no_days_selected">Δεν έχουν επιλεγεί ημέρες</string>
+    <string name="clock">Ρολόι</string>
+    <string name="timer">Χρονόμετρο</string>
+    <string name="stopwatch">Χρονομετρητής</string>
+    <string name="start_stopwatch">Έναρξη χρονομετρητή</string>
+    <string name="lap">Γύρος</string>
+    <string name="stopwatch_stopped">Ο χρονοδιακόπτης σταμάτησε</string>
+    <string name="timer_stopped">Το χρονόμετρο σταμάτησε</string>
+    <string name="max_reminder_duration">Μέγιστη διάρκεια υπενθύμισης</string>
+    <string name="time_expired">Το Χρονόμετρο έληξε</string>
+    <string name="clock_and_date">Ώρα και ημερομηνία</string>
+    <string name="use_text_shadow">Χρήση σκιάς κειμένου</string>
+    <string name="swipe_right_to_dismiss">Σάρωση δεξιά για απόρριψη ή αριστερά για αναβολή.</string>
+    <string name="sort_by_creation_order">Σειρά δημιουργίας</string>
+    <string name="sort_by_alarm_time">Ώρα Αφύπνισης</string>
+    <string name="sort_by_day_and_alarm_time">Ημέρα και ώρα αφύπνισης</string>
+    <string name="analogue_clock">Αναλογικό Ρολόι</string>
+    <string name="digital_clock">Ψηφιακό Ρολόι</string>
+    <string name="alarm_dismissed">Η αφύπνιση απορρίφθηκε</string>
+    <string name="alarm_snoozed">Η αφύμνιση σε αναμονή από %s</string>
+    <string name="no_alarms_found">Δεν βρέθηκαν αφυπνίσεις</string>
+    <string name="add_alarm">Προσθήκη αφύπνισης</string>
+    <string name="no_timers_found">Δεν βρέθηκαν χρονόμετρα</string>
+    <string name="add_timer">Προσθήκη χρονόμετρου</string>
+    <string name="upcoming_alarm">Upcoming alarm</string>
+
+    <!--Timer-->
+    <string name="timers_notification_msg">Τα χρονόμετρα τρέχουν</string>
+    <string name="timer_single_notification_label_msg">Το χρονόμετρο για %s τρέχει</string>
+    <string name="new_timer">Νέο Χρονόμετρο</string>
+
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d χρονόμετρο τρέχει</item>
+        <item quantity="other">%d χρονόμετρα τρέχουν</item>
+    </plurals>
+
+    <!-- Settings -->
+    <string name="clock_tab">Ετικέτα Ρολογιού</string>
+    <string name="alarm_tab">Ετικέτα Αφύπνισης</string>
+    <string name="stopwatch_tab">Ετικέτα Χρονοδιακόπτη</string>
+    <string name="timer_tab">Ετικέτα Χρονόμετρου</string>
+    <string name="show_seconds">Εμφάνιση δευτ/των</string>
+    <string name="increase_volume_gradually">Σταδιακή αύξηση έντασης</string>
+
+    <!-- FAQ -->
+    <string name="faq_1_title">Πώς μπορώ να αλλάξω την ταξινόμηση γύρων στην καρτέλα χρονόμετρου;</string>
+    <string name="faq_1_text">Απλά κάντε κλικ σε οποιαδήποτε από τις στήλες, ώστε οι γύροι να ταξινομηθούν κατά τη δεδομένη στήλη. Με πρόσθετα κλικ μπορείτε να κάνετε εναλλαγή μεταξύ αύξουσας και φθίνουσας ταξινόμησης.</string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

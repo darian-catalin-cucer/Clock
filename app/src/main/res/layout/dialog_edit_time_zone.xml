@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edit_time_zone_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <com.simplemobiletools.commons.views.MyTextInputLayout
+        android:id="@+id/edit_time_zone_title_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:hint="@string/title">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_time_zone_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="@dimen/normal_text_size" />
+
+    </com.simplemobiletools.commons.views.MyTextInputLayout>
+
+    <com.simplemobiletools.commons.views.MyTextInputLayout
+        android:id="@+id/edit_time_zone_label_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/time_zone">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_time_zone_label"
+            style="@style/UnclickableEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="@dimen/normal_text_size"
+            tools:text="GMT-11:00 Midway" />
+
+    </com.simplemobiletools.commons.views.MyTextInputLayout>
+</LinearLayout>
